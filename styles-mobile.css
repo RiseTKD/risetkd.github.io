@@ -19,6 +19,10 @@ nav.banner {
 	grid-template-columns: min-content auto min-content;
 }
 
+.banner-icon {
+	height: 8vh;
+}
+
 .banner-icon > img {
 	width: 6vh;
 	height: 6vh;
@@ -28,4 +32,21 @@ nav.banner {
 .banner-title > h1 {
 	margin: 0;
 	font-size: 3vh;
+}
+
+.banner-menu ul {
+	display: none;
+}
+
+.banner-menu-open {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.banner-menu-open>.icon {
+	color: var(--col-accent-dark);
+	font-size: 4vh;
+	margin: 1vh;
 }

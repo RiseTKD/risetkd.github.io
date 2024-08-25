@@ -1,6 +1,6 @@
 :root {
 	--col-text: black;
-	--col-bg-plain: #ffffff;
+	--col-bg-plain: #f8f8f8;;
 	--col-bg-tint: #ffe5e1;
 	--col-accent-dark: #FF6A00;
 	--col-accent-mid: #FF8B39;
@@ -8,13 +8,14 @@
 	--col-button-normal: var(--col-accent-dark);
 	--col-button-hover: var(--col-accent-light);
 	--col-button-text: white;
+	--col-banner-bg: white;
 	--col-section-heading: var(--col-accent-dark);
 	--col-section-text: var(--col-text);
-	--col-section-background: var(--col-bg-plain);
+	--col-section-bg: var(--col-bg-plain);
 }
 
 body {
-	background: var(--bg-plain);
+	background: var(--col-bg-plain);
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 450;
@@ -36,7 +37,7 @@ sup {
 }
 
 nav.banner {
-	background-color: var(--col-bg-plain);
+	background-color: var(--col-banner-bg);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -62,4 +63,33 @@ nav.banner {
 	user-select: none;
 	white-space: nowrap;
 	overflow-x: hidden;
+}
+
+.banner-menu > ul {
+	font-size: 0;
+}
+
+.banner-menu a {
+	text-decoration: none;
+}
+
+.banner-menu-item { 
+	transition: 0.5s;
+	color: var(--col-accent-dark);
+	font-weight: 600;
+	text-transform: lowercase;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	align-content: center;
+	font-size: 16px;
+}
+
+.banner-menu-item.selected {
+	background-color: var(--col-bg-tint);
+}
+
+.banner-menu-item:hover {
+	transition: 0.5s;
+	background-color: var(--col-bg-tint);
 }

@@ -20,6 +20,10 @@ nav.banner {
 	grid-template-columns: min-content min-content auto;
 }
 
+.banner-icon {
+	height: 80px;
+}
+
 .banner-icon > img {
 	width: 60px;
 	height: 60px;
@@ -27,6 +31,31 @@ nav.banner {
 }
 
 .banner-title > h1 {
-	margin: 0 0 0 30px;
+	margin: 0 0 5px 30px;
 	font-size: 36px;
+}
+
+.banner-menu-open {
+	display: none;
+}
+
+.banner-menu > ul {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.banner-menu > ul > li {
+	display: inline-block;
+	height: 100%;
+}
+
+.banner-menu-item {
+	height: 100%;
+	padding: 0 20px;
+}
+
+.banner-menu-item.selected {
+	border-bottom: 5px solid var(--col-accent-dark)
 }
