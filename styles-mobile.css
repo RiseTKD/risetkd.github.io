@@ -81,7 +81,7 @@ nav.banner {
 .banner-menu-item {
 	font-size: 2vh;
 	text-align: left;
-	padding: 1vh 1vh 1vh 2vh;
+	padding: 2vh 2vh 2vh 4vh;
 }
 
 .banner-menu-item.selected {
