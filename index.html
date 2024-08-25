@@ -18,6 +18,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+		<script type="text/javascript" src="menu.js"></script>
 	</head>
 	<body>
 		<nav class="banner">
@@ -29,15 +30,16 @@
 					<div class="banner-title">
 						<h1>Rise TKD</h1>
 					</div>
-					<div class="banner-menu">
-						<div class="banner-menu-open">
-							<i class="icon ri-menu-line"></i>
+					<div id="banner-menu" class="banner-menu hide">
+						<div id="banner-menu-open" onclick="toggleMenu()" class="banner-menu-open">
+							<i id="banner-menu-icon-open" class="icon ri-menu-line"></i>
+							<i id="banner-menu-icon-close" class="icon ri-close-large-line"></i>
 						</div>
-						<ul>
-							<li><a href="/home"><div class="banner-menu-item selected">Home</div></a></li>
+						<ul id="banner-menu-list" class="banner-menu-list hide">
+							<li><a href="/"><div class="banner-menu-item selected">Home</div></a></li>
 							<li><a href="/about-us"><div class="banner-menu-item">About Us</div></a></li>
-							<li><a href="/home"><div class="banner-menu-item">Classes</div></a></li>
-							<li><a href="/home"><div class="banner-menu-item">Contact Us</div></a></li>
+							<li><a href="/"><div class="banner-menu-item">Classes</div></a></li>
+							<li><a href="/"><div class="banner-menu-item">Contact Us</div></a></li>
 						</ul>
 					</div>
 				</div>

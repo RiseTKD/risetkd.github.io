@@ -34,10 +34,6 @@ nav.banner {
 	font-size: 3vh;
 }
 
-.banner-menu ul {
-	display: none;
-}
-
 .banner-menu-open {
 	display: flex;
 	align-items: center;
@@ -49,4 +45,45 @@ nav.banner {
 	color: var(--col-accent-dark);
 	font-size: 4vh;
 	margin: 1vh;
+}
+
+.banner-menu-list {
+	position: absolute;
+	top: 8vh;
+	width: calc(100vw - 8vh);
+	height: 92vh;
+	padding: 0;
+	background-color: var(--col-bg-plain);
+}
+
+.banner-menu.hide #banner-menu-icon-close {
+	display: none;
+}
+
+.banner-menu.show #banner-menu-icon-open {
+	display: none;
+}
+
+.banner-menu.hide .banner-menu-list {
+	transition: 0.5s;
+	left: -100vw;
+}
+
+.banner-menu.show .banner-menu-list {
+	transition: 0.5s;
+	left: 0;
+}
+
+#banner-menu-list > li {
+	border-bottom: 5px solid lightgrey;
+}
+
+.banner-menu-item {
+	font-size: 2vh;
+	text-align: left;
+	padding: 1vh 1vh 1vh 2vh;
+}
+
+.banner-menu-item.selected {
+	border-right: 2vw solid var(--col-accent-dark)
 }
