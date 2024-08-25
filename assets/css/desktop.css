@@ -54,8 +54,9 @@ nav.banner {
 .banner-menu-item {
 	height: 100%;
 	padding: 0 20px;
+	border-bottom: 5px solid transparent;
 }
 
 .banner-menu-item.selected {
-	border-bottom: 5px solid var(--col-accent-dark)
+	border-bottom: 5px solid var(--col-accent-dark);
 }

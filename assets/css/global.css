@@ -1,7 +1,7 @@
 :root {
 	--col-text: black;
 	--col-bg-plain: #f8f8f8;;
-	--col-bg-tint: #ffe5e1;
+	--col-bg-tint: #ffd9bf;
 	--col-accent-dark: #FF6A00;
 	--col-accent-mid: #FF8B39;
 	--col-accent-light: #FFA464;
@@ -84,6 +84,7 @@ nav.banner {
 	text-align: center;
 	align-content: center;
 	font-size: 16px;
+	box-sizing: border-box;
 }
 
 .banner-menu-item {
