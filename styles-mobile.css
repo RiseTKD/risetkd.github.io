@@ -1,0 +1,31 @@
+.only-desktop {
+	display: none;
+}
+
+.content {
+	width: 96vw;
+	margin: 0 auto;
+}
+
+body {
+	margin-top: 10vh;
+}
+
+nav.banner {
+	height: 8vh;
+}
+
+.banner-container {
+	grid-template-columns: min-content auto min-content;
+}
+
+.banner-icon > img {
+	width: 6vh;
+	height: 6vh;
+	margin: 1vh;
+}
+
+.banner-title > h1 {
+	margin: 0;
+	font-size: 3vh;
+}

@@ -1,0 +1,32 @@
+.only-mobile {
+	display: none;
+}
+
+.content {
+	width: 1280px;
+	max-width: 60vw;
+	margin: 0 auto;
+}
+
+body {
+	margin-top: 80px;
+}
+
+nav.banner {
+	height: 80px;
+}
+
+.banner-container {
+	grid-template-columns: min-content min-content auto;
+}
+
+.banner-icon > img {
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+}
+
+.banner-title > h1 {
+	margin: 0 0 0 30px;
+	font-size: 36px;
+}

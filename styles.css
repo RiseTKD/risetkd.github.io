@@ -1,0 +1,65 @@
+:root {
+	--col-text: black;
+	--col-bg-plain: #ffffff;
+	--col-bg-tint: #ffe5e1;
+	--col-accent-dark: #FF6A00;
+	--col-accent-mid: #FF8B39;
+	--col-accent-light: #FFA464;
+	--col-button-normal: var(--col-accent-dark);
+	--col-button-hover: var(--col-accent-light);
+	--col-button-text: white;
+	--col-section-heading: var(--col-accent-dark);
+	--col-section-text: var(--col-text);
+	--col-section-background: var(--col-bg-plain);
+}
+
+body {
+	background: var(--bg-plain);
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 450;
+}
+
+h1 {
+	font-family: "Raleway", sans-serif;
+}
+
+h2 {
+	font-family: "Raleway", sans-serif;
+	margin: 0;
+	padding-left: 20px;
+}
+
+sup {
+	vertical-align: top;
+	font-size: 0.6em; 
+}
+
+nav.banner {
+	background-color: var(--col-bg-plain);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+}
+
+.banner-container {
+	display: grid;
+}
+
+.banner-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner-title > h1 {
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-family: "Playwrite GB S", sans-serif;
+	font-weight: 600;
+	color: var(--col-accent-dark);
+	user-select: none;
+	white-space: nowrap;
+	overflow-x: hidden;
+}
