@@ -1,0 +1,24 @@
+<nav class="banner">
+	<div class="content banner-content">
+		<div class="banner-container">
+			<div class="banner-icon">
+				<img src="/assets/img/logo-icon.png">
+			</div>
+			<div class="banner-title">
+				<h1>Rise TKD</h1>
+			</div>
+			<div id="banner-menu" class="banner-menu hide">
+				<div id="banner-menu-open" onmousedown="toggleMenu()" class="banner-menu-open">
+					<i id="banner-menu-icon-open" class="icon ri-menu-line"></i>
+					<i id="banner-menu-icon-close" class="icon ri-close-large-line"></i>
+				</div>
+				<ul id="banner-menu-list" class="banner-menu-list hide">
+					<li><a href="/"><div class="banner-menu-item {% if page.sitecat == "home" %}selected{% endif %}">Home</div></a></li>
+					<li><a href="/about-us"><div class="banner-menu-item {% if page.sitecat == "about-us" %}selected{% endif %}">About Us</div></a></li>
+					<li><a href="/classes"><div class="banner-menu-item {% if page.sitecat == "classes" %}selected{% endif %}">Classes</div></a></li>
+					<li><a href="/contact-us"><div class="banner-menu-item {% if page.sitecat == "contact-us" %}selected{% endif %}">Contact Us</div></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>
