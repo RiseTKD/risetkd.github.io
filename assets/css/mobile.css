@@ -11,43 +11,43 @@ body {
 	margin-top: 10vh;
 }
 
-nav.banner {
+nav#banner {
 	height: 8vh;
 }
 
-.banner-container {
+#banner-container {
 	grid-template-columns: min-content auto min-content;
 }
 
-.banner-icon {
+#banner-logo {
 	height: 8vh;
 }
 
-.banner-icon > img {
+#banner-logo > img {
 	width: 6vh;
 	height: 6vh;
 	margin: 1vh;
 }
 
-.banner-title > h1 {
+#banner-title > h1 {
 	margin: 0;
 	font-size: 3vh;
 }
 
-.banner-menu-open {
+#banner-menu-open {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 100%;
 }
 
-.banner-menu-open>.icon {
+#banner-menu-open > .icon {
 	color: var(--col-accent-dark);
 	font-size: 4vh;
 	margin: 1vh;
 }
 
-.banner-menu-list {
+#banner-menu-list {
 	position: absolute;
 	top: 8vh;
 	width: calc(100vw - 8vh);
@@ -56,20 +56,20 @@ nav.banner {
 	background-color: var(--col-bg-plain);
 }
 
-.banner-menu.hide #banner-menu-icon-close {
+#banner-menu.hide #banner-menu-icon-close {
 	display: none;
 }
 
-.banner-menu.show #banner-menu-icon-open {
+#banner-menu.show #banner-menu-icon-open {
 	display: none;
 }
 
-.banner-menu.hide .banner-menu-list {
+#banner-menu.hide #banner-menu-list {
 	transition: 0.5s;
 	left: -100vw;
 }
 
-.banner-menu.show .banner-menu-list {
+#banner-menu.show #banner-menu-list {
 	transition: 0.5s;
 	left: 0;
 }

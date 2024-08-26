@@ -12,41 +12,41 @@ body {
 	margin-top: 80px;
 }
 
-nav.banner {
+nav#banner {
 	height: 80px;
 }
 
-.banner-container {
+#banner-container {
 	grid-template-columns: min-content min-content auto;
 }
 
-.banner-icon {
+#banner-logo {
 	height: 80px;
 }
 
-.banner-icon > img {
+#banner-logo > img {
 	width: 60px;
 	height: 60px;
 	margin: 10px;
 }
 
-.banner-title > h1 {
+#banner-title > h1 {
 	margin: 0 0 0 30px;
 	font-size: 36px;
 }
 
-.banner-menu-open {
+#banner-menu-open {
 	display: none;
 }
 
-.banner-menu > ul {
+#banner-menu > ul {
 	height: 100%;
 	margin: 0;
 	padding: 0;
 	text-align: right;
 }
 
-.banner-menu > ul > li {
+#banner-menu > ul > li {
 	display: inline-block;
 	height: 100%;
 }

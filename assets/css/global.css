@@ -36,7 +36,7 @@ sup {
 	font-size: 0.6em; 
 }
 
-nav.banner {
+nav#banner {
 	background-color: var(--col-banner-bg);
 	position: fixed;
 	top: 0;
@@ -45,17 +45,17 @@ nav.banner {
 	filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 2px 2px);
 }
 
-.banner-container {
+#banner-container {
 	display: grid;
 }
 
-.banner-title {
+#banner-title {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.banner-title > h1 {
+#banner-title > h1 {
 	text-transform: uppercase;
 	letter-spacing: 0.4em;
 	font-family: "Playwrite GB S", sans-serif;
@@ -66,11 +66,11 @@ nav.banner {
 	overflow-x: hidden;
 }
 
-.banner-menu > ul {
+#banner-menu > ul {
 	font-size: 0;
 }
 
-.banner-menu a {
+#banner-menu a {
 	text-decoration: none;
 }
 
