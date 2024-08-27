@@ -1,7 +1,24 @@
+#section-tkd article {
+	grid-column: 1 / -1;
+}
+
 #section-impact {
 	background-color: #a1b8ce;
 }
 
 #section-impact > .divider {
 	background-image: url('/assets/img/divider-impact.png');
+}
+
+#section-impact .section-image {
+	order: -1;
+}
+
+#section-instructor ul {
+	padding-left: 30px;
+}
+
+#section-instructor li::marker {
+	content: '✓';
+	font-size: 1.4em;
 }

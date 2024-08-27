@@ -67,10 +67,6 @@ nav#banner {
 	align-items: center;
 }
 
-#section-impact > .section-image {
-	order: -1;
-}
-
 .section-image > img {
 	width: 480px;
 }
