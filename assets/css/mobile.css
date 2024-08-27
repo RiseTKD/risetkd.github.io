@@ -88,3 +88,12 @@ nav#banner {
 .banner-menu-item.selected {
 	border-right: 2vw solid var(--col-accent-dark);
 }
+
+.section-image {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.section-image > img {
+	width: 96vw;
+}

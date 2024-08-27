@@ -38,6 +38,7 @@ sup {
 
 nav#banner {
 	background-color: var(--col-banner-bg);
+	z-index: 999;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -102,4 +103,19 @@ nav#banner {
 .banner-menu-item.selected {
 	transition: 0s;
 	background-color: var(--col-bg-tint);
+}
+
+.section-image {
+	width: min-content;
+}
+
+.section-image > img {
+	border-radius: 20px;
+	filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 2px 2px);
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+	font-size: 0.8em;
 }

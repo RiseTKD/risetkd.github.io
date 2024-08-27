@@ -60,3 +60,17 @@ nav#banner {
 .banner-menu-item.selected {
 	border-bottom: 5px solid var(--col-accent-dark);
 }
+
+.section {
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+}
+
+#section-impact > .section-image {
+	order: -1;
+}
+
+.section-image > img {
+	width: 480px;
+}
