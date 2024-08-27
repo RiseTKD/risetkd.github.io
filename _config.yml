@@ -1,4 +1,5 @@
 url: "https://www.risetkd.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Rise Taekwon-Do" # the name of your site, e.g. ACME Corp.
+desc: Teaching ITF Taekwon-Do in north London since 2024.
 lang: en-GB
