@@ -1,6 +1,7 @@
 :root {
 	--col-text: black;
-	--col-bg-plain: #f1f1f1;;
+	--col-bg-dark: #e0e0e0;
+	--col-bg-light: white;
 	--col-bg-tint: #ffd9bf;
 	--col-accent-dark: #FF6A00;
 	--col-accent-mid: #FF8B39;
@@ -18,7 +19,7 @@
 }
 
 body {
-	background: var(--col-bg-plain);
+	background: var(--col-bg-dark);
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 450;
@@ -166,7 +167,7 @@ figcaption {
 }
 
 .section:nth-child(2n + 1) {
-	background-color: #f1f1f1;
+	background-color: #e0e0e0;
 }
 
 .section:nth-child(2n + 1) > .divider {
