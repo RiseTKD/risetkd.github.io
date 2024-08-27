@@ -12,6 +12,9 @@
 	--col-section-heading: var(--col-accent-dark);
 	--col-section-text: var(--col-text);
 	--col-section-bg: var(--col-bg-plain);
+	--col-button-text: white;
+	--col-button-normal: var(--col-accent-dark);
+	--col-button-hover: var(--col-accent-light);
 }
 
 body {
@@ -19,6 +22,10 @@ body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 450;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--col-accent-dark);
 }
 
 h1 {
@@ -142,15 +149,15 @@ figcaption {
 	font-size: 0.8em;
 }
 
-section:nth-child(3n) > .divider {
+.section:nth-child(3n) > .divider {
 	background-position-x: 33.333%;
 }
 
-section:nth-child(3n + 1) > .divider {
+.section:nth-child(3n + 1) > .divider {
 	background-position-x: 66.666%;
 }
 
-section:nth-child(2n) {
+.section:nth-child(2n) {
 	background-color: white;
 }
 
@@ -158,10 +165,45 @@ section:nth-child(2n) {
 	background-image: url('/assets/img/divider-white.png');
 }
 
-section:nth-child(2n + 1) {
+.section:nth-child(2n + 1) {
 	background-color: #f1f1f1;
 }
 
 .section:nth-child(2n + 1) > .divider {
 	background-image: url('/assets/img/divider-grey.png');
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section h6 {
+	color: var(--col-section-heading);
+}
+
+.section {
+	color: var(--col-section-text);
+}
+
+.button {
+	margin: 0 10px 10px 10px;
+	transition: 0.5s;
+	display: inline-block;
+	background-color: var(--col-button-bg-normal, var(--col-button-normal));
+	border: 1px solid var(--col-button-border-normal, var(--col-button-normal));
+	border-radius: 50px;
+	color: var(--col-button-text);
+	font-weight: bold;
+	text-decoration: none;
+	width: fit-content;
+	margin-left: 10px;
+	padding: 9px 19px;
+}
+
+.button:hover {
+	transition: 0.5s;
+	background-color: var(--col-button-bg-hover, var(--col-button-hover));
+	border: 1px solid var(--col-button-border-hover, var(--col-button-hover));
+	text-decoration: underline;
 }

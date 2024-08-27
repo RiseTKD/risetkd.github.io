@@ -22,3 +22,29 @@
 	content: '✓';
 	font-size: 1.4em;
 }
+
+#section-itf .button {
+	border-color: var(--button-colour-text);
+}
+
+#section-impact {
+	--col-section-heading: #04284C;
+	--col-section-text: black;
+	--col-section-bg: #A1B8CE;
+	--col-button-text: white;
+	--col-button-normal: #04284C;
+	--col-button-hover: #466B8F;
+	--col-button-bg-normal: #04284C;
+	--col-button-bg-hover: #466B8F;
+}
+
+#section-itf {
+	--col-section-heading: #1D1D1B;
+	--col-section-text: #1D1D1B;
+	--col-section-bg: white;
+	--col-button-text: #1D1D1B;
+	--col-button-normal: transparent;
+	--col-button-hover: transparent;
+	--col-button-bg-normal: transparent;
+	--col-button-bg-hover: transparent;
+}
