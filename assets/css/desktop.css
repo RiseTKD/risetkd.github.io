@@ -61,7 +61,7 @@ nav#banner {
 	border-bottom: 5px solid var(--col-accent-dark);
 }
 
-.section {
+.section-content {
 	display: grid;
 	grid-template-columns: auto auto;
 	align-items: center;

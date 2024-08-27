@@ -1,6 +1,6 @@
 :root {
 	--col-text: black;
-	--col-bg-plain: #f8f8f8;;
+	--col-bg-plain: #f1f1f1;;
 	--col-bg-tint: #ffd9bf;
 	--col-accent-dark: #FF6A00;
 	--col-accent-mid: #FF8B39;
@@ -105,6 +105,28 @@ nav#banner {
 	background-color: var(--col-bg-tint);
 }
 
+#page {
+	padding-top: 20px;
+}
+
+.section {
+	position: relative;
+	padding: 0 0 40px 0;
+}
+
+.divider {
+	position: absolute;
+	left: 50%;
+	top: -40px;
+	height: 40px;
+	transform: translateX(-50%);
+	background-image: url('/assets/img/divider-white.png');
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+	width: 100vw;
+	z-index: 500;
+}
+
 .section-image {
 	width: min-content;
 }
@@ -118,4 +140,28 @@ figcaption {
 	text-align: center;
 	font-style: italic;
 	font-size: 0.8em;
+}
+
+section:nth-child(3n) > .divider {
+	background-position-x: 33.333%;
+}
+
+section:nth-child(3n + 1) > .divider {
+	background-position-x: 66.666%;
+}
+
+section:nth-child(2n) {
+	background-color: white;
+}
+
+.section:nth-child(2n) > .divider {
+	background-image: url('/assets/img/divider-white.png');
+}
+
+section:nth-child(2n + 1) {
+	background-color: #f1f1f1;
+}
+
+.section:nth-child(2n + 1) > .divider {
+	background-image: url('/assets/img/divider-grey.png');
 }

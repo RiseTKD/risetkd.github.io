@@ -8,7 +8,7 @@
 }
 
 body {
-	margin-top: 10vh;
+	margin-top: 8vh;
 }
 
 nav#banner {
@@ -90,7 +90,7 @@ nav#banner {
 }
 
 .section-image {
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
 	padding: 0;
 }
 

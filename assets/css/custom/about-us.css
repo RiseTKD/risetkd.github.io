@@ -1,0 +1,7 @@
+#section-impact {
+	background-color: #a1b8ce;
+}
+
+#section-impact > .divider {
+	background-image: url('/assets/img/divider-impact.png');
+}
