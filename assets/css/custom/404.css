@@ -1,8 +1,9 @@
-#page {
+article {
+	grid-column: 1 / -1;
 	text-align: center;
 }
 
-#page > .icon {
+#page .icon {
 	font-size: 100px;
 	color: var(--col-accent-dark);
 }
