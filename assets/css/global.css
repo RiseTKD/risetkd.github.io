@@ -27,16 +27,17 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	color: var(--col-accent-dark);
-}
-
-h1 {
 	font-family: "Raleway", sans-serif;
+	margin: 0;
+	padding-left: 15px;
 }
 
 h2 {
-	font-family: "Raleway", sans-serif;
-	margin: 0;
-	padding-left: 20px;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.2em;
 }
 
 sup {
@@ -73,6 +74,7 @@ nav#banner {
 	user-select: none;
 	white-space: nowrap;
 	overflow-x: hidden;
+	padding: 0;
 }
 
 #banner-menu > ul {
@@ -113,13 +115,8 @@ nav#banner {
 	background-color: var(--col-bg-tint);
 }
 
-#page {
-	padding-top: 20px;
-}
-
 .section {
 	position: relative;
-	padding: 0 0 40px 0;
 }
 
 .divider {

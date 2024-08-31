@@ -89,6 +89,10 @@ nav#banner {
 	border-right: 2vw solid var(--col-accent-dark);
 }
 
+.section-content {
+	padding: 10px 0 40px 0;
+}
+
 .section-image {
 	margin: 0 auto 20px auto;
 	padding: 0;

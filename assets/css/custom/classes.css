@@ -2,8 +2,8 @@
 	margin-top: 0.2em;
 	margin-bottom: 0.2em;
 }
-.address>p:first-child {
-	font-size: 1.2em;
+.address>p:not(:first-child) {
+	font-size: 0.9em;
 }
 
 main .icon {
