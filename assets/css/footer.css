@@ -2,6 +2,9 @@ footer {
 	position: relative;
 	background-color: #404040;
 	color: var(--col-accent-mid);
+}
+
+#footer-content {
 	padding: 5px;
 }
 
