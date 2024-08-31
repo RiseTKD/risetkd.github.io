@@ -206,3 +206,54 @@ figcaption {
 	border: 1px solid var(--col-button-border-hover, var(--col-button-hover));
 	text-decoration: underline;
 }
+
+.infocard-list {
+	list-style: none;
+	padding: 0;
+	margin: 15px;
+}
+
+.infocard-list > li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.infocard > div, .infocard > a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: min-content;
+}
+
+.infocard-icon {
+	padding: 5px;
+	font-size: 2.0em;
+}
+
+.infocard-text {
+	width: max-content;
+	text-align: left;
+}
+
+.infocard-text p {
+	margin: 5px;
+}
+
+.infocard a {
+	text-decoration: none;
+	transition: 0.5s;
+	color: inherit;
+}
+
+.infocard a:visited {
+	color: inherit;
+}
+
+.infocard a:hover {
+	transition: 0.5s;
+	color: #505050;
+}
+
+.address p:not(:first-child) {
+	font-size: 0.9em;
+}
