@@ -52,7 +52,7 @@ nav#banner {
 	top: 0;
 	left: 0;
 	width: 100vw;
-	filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 2px 2px);
+	filter: drop-shadow(rgba(0, 0, 0, 0.2) 0 2px 2px);
 }
 
 #banner-container {
@@ -130,7 +130,7 @@ nav#banner {
 	background-size: auto 100%;
 	width: 100vw;
 	z-index: 500;
-	filter: drop-shadow(rgba(0, 0, 0, 0.1) 0 -6px 3px);
+	filter: drop-shadow(rgba(0, 0, 0, 0.12) 0 -2px 2px);
 }
 
 .section-image {
