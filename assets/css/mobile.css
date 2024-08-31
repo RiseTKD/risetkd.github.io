@@ -39,6 +39,7 @@ nav#banner {
 	align-items: center;
 	justify-content: center;
 	height: 100%;
+	cursor: pointer;
 }
 
 #banner-menu-open > .icon {
@@ -53,7 +54,7 @@ nav#banner {
 	width: calc(100vw - 8vh);
 	height: 92vh;
 	padding: 0;
-	background-color: var(--col-bg-plain);
+	background-color: var(--col-bg-mid);
 }
 
 #banner-menu.hide #banner-menu-icon-close {
@@ -75,18 +76,18 @@ nav#banner {
 }
 
 #banner-menu-list > li {
-	border-bottom: 2px solid lightgrey;
+	border-bottom: 1px solid #d0d0d0;
 }
 
 .banner-menu-item {
 	font-size: 2vh;
 	text-align: left;
 	padding: 2vh 2vh 2vh 4vh;
-	border-right: 2vw solid transparent;
+	border-right: 5px solid transparent;
 }
 
 .banner-menu-item.selected {
-	border-right: 2vw solid var(--col-accent-dark);
+	border-right: 5px solid var(--col-accent-dark);
 }
 
 .section-content {
