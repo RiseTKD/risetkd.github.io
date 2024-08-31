@@ -133,6 +133,7 @@ nav#banner {
 	background-size: auto 100%;
 	width: 100vw;
 	z-index: 500;
+	filter: drop-shadow(rgba(0, 0, 0, 0.1) 0 -6px 3px);
 }
 
 .section-image {
