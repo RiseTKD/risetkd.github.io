@@ -1,4 +1,9 @@
 footer {
+	--col-text: var(--col-accent-dark);
+	--col-text-hover: var(--col-accent-light);
+	--col-button-normal: var(--col-accent-dark);
+	--col-button-hover: var(--col-accent-light);
+
 	position: relative;
 	background-color: #404040;
 	color: var(--col-accent-dark);
@@ -15,28 +20,7 @@ footer > .divider {
 
 #footer-socials {
 	text-align: center;
-	list-style: none;
 	padding: 0 40px;
-}
-
-#footer-socials > li {
-	display: inline-block;
-	padding: 0 10px;
-}
-
-#footer-socials a {
-	text-decoration: none;
-	transition: 0.5s;
-	color: inherit;
-}
-
-#footer-socials a:visited {
-	color: inherit;
-}
-
-#footer-socials a:hover {
-	transition: 0.5s;
-	color: var(--col-accent-light);
 }
 
 #footer-copyright {

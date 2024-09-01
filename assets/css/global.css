@@ -1,5 +1,6 @@
 :root {
 	--col-text: black;
+	--col-text-hover: #505050;
 	--col-bg-dark: #e0e0e0;
 	--col-bg-mid: #f0f0f0;
 	--col-bg-light: white;
@@ -208,6 +209,10 @@ figcaption {
 	text-decoration: underline;
 }
 
+.icon {
+	color: var(--col-button-normal);
+}
+
 .infocard-list {
 	list-style: none;
 	padding: 0;
@@ -219,7 +224,8 @@ figcaption {
 	margin-right: 15px;
 }
 
-.infocard > div, .infocard > a {
+.infocard > div,
+.infocard > a {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -241,16 +247,26 @@ figcaption {
 .infocard a {
 	text-decoration: none;
 	transition: 0.5s;
-	color: inherit;
+	color: var(--col-text);
 }
 
 .infocard a:visited {
-	color: inherit;
+	color: var(--col-text);
 }
 
 .infocard a:hover {
 	transition: 0.5s;
-	color: #505050;
+	color: var(--col-text-hover);
+}
+
+.infocard a .icon {
+	transition: 0.5s;
+	color: var(--col-button-normal);
+}
+
+.infocard a:hover .icon {
+	transition: 0.5s;
+	color: var(--col-button-hover);
 }
 
 .address p:not(:first-child) {
