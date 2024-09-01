@@ -1,3 +1,7 @@
+#page .infocard-list > li {
+	display: block;
+}
+
 #section-tkd article {
 	grid-column: 1 / -1;
 }
@@ -14,15 +18,6 @@
 	order: -1;
 }
 
-#section-instructor ul {
-	padding-left: 30px;
-}
-
-#section-instructor li::marker {
-	content: '✓';
-	font-size: 1.4em;
-}
-
 #section-itf .button {
 	border-color: var(--button-colour-text);
 }
@@ -36,6 +31,10 @@
 	--col-button-hover: #466B8F;
 	--col-button-bg-normal: #04284C;
 	--col-button-bg-hover: #466B8F;
+}
+
+#section-impact .infocard-icon {
+	font-size: 0.5em;
 }
 
 #section-itf {

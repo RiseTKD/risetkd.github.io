@@ -223,16 +223,14 @@ figcaption {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: min-content;
 }
 
 .infocard-icon {
-	padding: 5px;
+	padding: 0 5px;
 	font-size: 2.0em;
 }
 
 .infocard-text {
-	width: max-content;
 	text-align: left;
 }
 
