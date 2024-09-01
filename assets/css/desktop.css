@@ -61,6 +61,11 @@ nav#banner {
 	border-bottom: 5px solid var(--col-accent-dark);
 }
 
+.banner-menu-icon {
+	font-size: 1.6em;
+	margin-right: 10px;
+}
+
 .section-content {
 	display: grid;
 	grid-template-columns: auto auto;

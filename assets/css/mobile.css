@@ -82,12 +82,16 @@ nav#banner {
 .banner-menu-item {
 	font-size: 2vh;
 	text-align: left;
-	padding: 2vh 2vh 2vh 4vh;
 	border-right: 5px solid transparent;
 }
 
 .banner-menu-item.selected {
 	border-right: 5px solid var(--col-accent-dark);
+}
+
+.banner-menu-icon {
+	font-size: 1.8em;
+	margin: 15px;
 }
 
 .section-content {

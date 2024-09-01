@@ -97,6 +97,9 @@ nav#banner {
 	align-content: center;
 	font-size: 16px;
 	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .banner-menu-item {
