@@ -14,9 +14,6 @@
 	--col-section-heading: var(--col-accent-dark);
 	--col-section-text: var(--col-text);
 	--col-section-bg: var(--col-bg-plain);
-	--col-button-text: white;
-	--col-button-normal: var(--col-accent-dark);
-	--col-button-hover: var(--col-accent-light);
 }
 
 body {
@@ -205,6 +202,7 @@ figcaption {
 
 .button:hover {
 	transition: 0.5s;
+	color: var(--col-button-text-hover, var(--col-button-text));
 	background-color: var(--col-button-bg-hover, var(--col-button-hover));
 	border: 1px solid var(--col-button-border-hover, var(--col-button-hover));
 	text-decoration: underline;

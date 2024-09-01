@@ -18,10 +18,6 @@
 	order: -1;
 }
 
-#section-itf .button {
-	border-color: var(--button-colour-text);
-}
-
 #section-impact {
 	--col-section-heading: #04284C;
 	--col-section-text: black;
@@ -42,8 +38,9 @@
 	--col-section-text: #1D1D1B;
 	--col-section-bg: white;
 	--col-button-text: #1D1D1B;
-	--col-button-normal: transparent;
-	--col-button-hover: transparent;
+	--col-button-text-hover: #555555;
+	--col-button-normal: #1D1D1B;
+	--col-button-hover: #555555;
 	--col-button-bg-normal: transparent;
 	--col-button-bg-hover: transparent;
 }
