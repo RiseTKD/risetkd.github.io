@@ -24,10 +24,11 @@ nav#banner {
 	height: 80px;
 }
 
-#banner-logo > img {
-	width: 60px;
-	height: 60px;
-	margin: 10px;
+#banner-logo > img,
+#banner-logo > svg {
+	width: 70px;
+	height: 70px;
+	margin: 5px;
 }
 
 #banner-title > h1 {
