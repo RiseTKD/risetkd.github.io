@@ -5,5 +5,7 @@ desc: Martial arts school teaching ITF Taekwon-Do in north London since 2024.
 lang: en-GB
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 whitelist:
   - jekyll-redirect-from
+  - jekyll-sitemap

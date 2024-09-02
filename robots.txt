@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /about-us
+Allow: /classes
+Allow: /contact-us
+
+Sitemap: https://www.risetkd.co.uk/sitemap.xml
