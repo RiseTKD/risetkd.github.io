@@ -8,6 +8,8 @@ footer {
 	background-color: #404040;
 	color: var(--col-accent-dark);
 	font-size: 0.9em;
+	overflow-x: clip;
+	overflow-y: visible;
 }
 
 #footer-content {
