@@ -63,6 +63,7 @@ nav#banner {
 }
 
 .banner-menu-icon {
+	display: none;
 	font-size: 1.6em;
 	margin-right: 10px;
 }

@@ -1,0 +1,8 @@
+#section-joining article,
+#section-faq article {
+	grid-column: 1 / -1;
+}
+
+#section-previous-experience .section-image {
+	order: -1;
+}

@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Allow: /about-us
+Allow: /getting-started
 Allow: /classes
 Allow: /contact-us
 

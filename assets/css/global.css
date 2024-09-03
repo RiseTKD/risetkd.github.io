@@ -177,6 +177,7 @@ figcaption {
 
 .section:nth-child(2n + 1) > .divider {
 	background-image: url('/assets/img/divider-grey.png');
+	filter: drop-shadow(rgba(0, 0, 0, 0.05) 0 -3px 2px);
 }
 
 .section h1,
