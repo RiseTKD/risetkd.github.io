@@ -1,0 +1,47 @@
+#section-welcome {
+	grid-column: 1 / -1;
+}
+
+#section-welcome-background {
+	position: absolute;
+	top: -80px;
+	left: -3%;
+	width: 106%;
+	height: calc(100% + 100px);
+	background-image: url('/assets/img/home/pic-teaching.jpg');
+	background-size: cover;
+	background-position: center;
+	filter: blur(5px) brightness(80%);
+}
+
+#section-welcome h1 {
+	font-size: 4em;
+	padding: 50px 200px;
+	filter: drop-shadow(rgba(0, 0, 0, 0.12) 4px 4px 2px);
+}
+
+#section-welcome-text {
+	display: block;
+	text-align: left;
+	text-transform: lowercase;
+	letter-spacing: 0.2em;
+	font-weight: 600;
+	color: var(--col-accent-dark);
+	white-space: nowrap;
+	font-size: 0.9em;
+}
+
+#section-welcome-title {
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-family: "Playwrite GB S", sans-serif;
+	font-weight: 600;
+	color: var(--col-accent-dark);
+	white-space: nowrap;
+}
+
+#section-getting-started .section-image {
+	order: -1;
+}
