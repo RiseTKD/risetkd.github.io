@@ -31,7 +31,7 @@ nav#banner {
 	margin: 5px;
 }
 
-#banner-title > h1 {
+#banner-title > span {
 	margin: 0 0 0 20px;
 	font-size: 36px;
 }
