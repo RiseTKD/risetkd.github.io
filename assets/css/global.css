@@ -39,6 +39,11 @@ h3 {
 	font-size: 1.2em;
 }
 
+p {
+	letter-spacing: 0.01em;
+	line-height: 1.4em;
+ }
+
 sup {
 	vertical-align: top;
 	font-size: 0.6em; 
@@ -124,7 +129,7 @@ nav#banner {
 .divider {
 	position: absolute;
 	left: 50%;
-	top: -40px;
+	top: -35px;
 	height: 40px;
 	transform: translateX(-50%);
 	background-image: url('/assets/img/divider-white.png');
@@ -189,6 +194,10 @@ figcaption {
 	overflow-y: visible;
 }
 
+.icon {
+	color: var(--col-button-normal);
+}
+
 .button {
 	margin: 0 10px 10px 10px;
 	transition: 0.5s;
@@ -212,8 +221,14 @@ figcaption {
 	text-decoration: underline;
 }
 
-.icon {
-	color: var(--col-button-normal);
+.button .icon {
+	transition: 0.5s;
+	color: var(--col-button-text);
+}
+
+.button:hover .icon {
+	transition: 0.5s;
+	color: var(--col-button-text-hover, var(--col-button-text));
 }
 
 .infocard-list {
