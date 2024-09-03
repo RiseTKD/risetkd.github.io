@@ -53,7 +53,7 @@ sup {
 	font-size: 0.6em; 
 }
 
-nav#banner {
+#banner {
 	background-color: var(--col-banner-bg);
 	z-index: 999;
 	position: fixed;
