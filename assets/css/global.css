@@ -133,7 +133,7 @@ sup {
 .divider {
 	position: absolute;
 	left: 50%;
-	top: -35px;
+	top: -39px;
 	height: 40px;
 	transform: translateX(-50%);
 	background-image: url('/assets/img/divider-white.png');
