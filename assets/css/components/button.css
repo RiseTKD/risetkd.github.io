@@ -1,0 +1,32 @@
+.button {
+	margin: 0 10px 10px 10px;
+	transition: 0.5s;
+	display: inline-block;
+	background-color: var(--col-button-bg-normal, var(--col-button-normal));
+	border: 1px solid var(--col-button-border-normal, var(--col-button-normal));
+	border-radius: 50px;
+	color: var(--col-button-text);
+	font-weight: bold;
+	text-decoration: none;
+	width: fit-content;
+	margin-left: 10px;
+	padding: 9px 19px;
+}
+
+.button:hover {
+	transition: 0.5s;
+	color: var(--col-button-text-hover, var(--col-button-text));
+	background-color: var(--col-button-bg-hover, var(--col-button-hover));
+	border: 1px solid var(--col-button-border-hover, var(--col-button-hover));
+	text-decoration: underline;
+}
+
+.button .icon {
+	transition: 0.5s;
+	color: var(--col-button-text);
+}
+
+.button:hover .icon {
+	transition: 0.5s;
+	color: var(--col-button-text-hover, var(--col-button-text));
+}

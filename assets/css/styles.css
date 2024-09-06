@@ -1,2 +1,6 @@
+@import url('/assets/css/components/banner.css');
+@import url('/assets/css/components/footer.css');
+@import url('/assets/css/components/section.css');
+@import url('/assets/css/components/button.css');
+@import url('/assets/css/components/infocard.css');
 @import url('/assets/css/global.css');
-@import url('/assets/css/footer.css');

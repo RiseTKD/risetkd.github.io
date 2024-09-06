@@ -1,0 +1,55 @@
+.infocard-list {
+	list-style: none;
+	padding: 0;
+	margin: 15px;
+}
+
+.infocard-list > li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.infocard > div,
+.infocard > a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.infocard-icon {
+	padding: 0 5px;
+	font-size: 2.0em;
+}
+
+.infocard-text {
+	text-align: left;
+}
+
+.infocard-text p {
+	margin: 5px;
+}
+
+.infocard a {
+	text-decoration: none;
+	transition: 0.5s;
+	color: var(--col-text);
+}
+
+.infocard a:visited {
+	color: var(--col-text);
+}
+
+.infocard a:hover {
+	transition: 0.5s;
+	color: var(--col-text-hover);
+}
+
+.infocard a .icon {
+	transition: 0.5s;
+	color: var(--col-button-normal);
+}
+
+.infocard a:hover .icon {
+	transition: 0.5s;
+	color: var(--col-button-hover);
+}
