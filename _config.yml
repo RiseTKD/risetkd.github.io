@@ -3,6 +3,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Rise Taekwon-Do" # the name of your site, e.g. ACME Corp.
 desc: Martial arts school teaching ITF Taekwon-Do in north London since 2024.
 lang: en-GB
+sass:
+  style: compressed
+  sass_dir: _sass
+  sourcemap: development
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
