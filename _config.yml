@@ -10,6 +10,8 @@ sass:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-sass-converter
 whitelist:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-sass-converter
