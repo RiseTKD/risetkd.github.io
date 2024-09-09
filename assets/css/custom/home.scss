@@ -1,10 +1,10 @@
 ---
 ---
-#section-welcome {
+#segment-welcome {
 	grid-column: 1 / -1;
 }
 
-#section-welcome-background {
+#segment-welcome-background {
 	position: absolute;
 	top: -80px;
 	left: -3%;
@@ -16,11 +16,11 @@
 	filter: blur(5px) brightness(80%);
 }
 
-#section-welcome h1 {
+#segment-welcome h1 {
 	filter: drop-shadow(rgba(0, 0, 0, 0.12) 4px 4px 2px);
 }
 
-#section-welcome-text {
+#segment-welcome-text {
 	display: block;
 	text-align: left;
 	text-transform: lowercase;
@@ -31,7 +31,7 @@
 	font-size: 0.9em;
 }
 
-#section-welcome-title {
+#segment-welcome-title {
 	display: block;
 	text-align: right;
 	text-transform: uppercase;
@@ -42,69 +42,69 @@
 	white-space: nowrap;
 }
 
-#section-getting-started .section-image {
+#segment-getting-started .segment-image {
 	order: -1;
 }
 
 @media (max-width:481px) {
-	#section-welcome h1 {
+	#segment-welcome h1 {
 		font-size: 2em;
 		padding: 50px 20px;
 	}
 }
 
 @media (min-width:481px) {
-	#section-welcome h1 {
+	#segment-welcome h1 {
 		font-size: 2em;
 		padding: 50px 20px;
 	}
 }
 
 @media (min-width:641px) {
-	#section-welcome h1 {
+	#segment-welcome h1 {
 		font-size: 2em;
 		padding: 50px 20px;
 	}
 }
 
 @media (min-width:961px) {
-	#section-welcome h1 {
+	#segment-welcome h1 {
 		font-size: 2em;
 		padding: 50px 20px;
 	}
 }
 
 @media (min-width:1025px) {
-	#section-welcome h1 {
+	#segment-welcome h1 {
 		font-size: 2em;
 		padding: 50px 20px;
 	}
 }
 
 @media (min-width:1281px) { /* HD-ready */
-	#section-welcome h1 {
+	#segment-welcome h1 {
 		font-size: 3em;
 		padding: 100px 150px;
 	}
 
-	.section-image img {
+	.segment-image img {
 		width: 400px;
 	}
 }
 
 @media (min-width:1921px) { /* FHD */
-	#section-welcome h1 {
+	#segment-welcome h1 {
 		font-size: 4em;
 		padding: 150px 200px;
 	}
 
-	.section-image img {
+	.segment-image img {
 		width: 480px;
 	}
 }
 
 @media (min-width:2561px) { /* QHD */
-	.section-image img {
+	.segment-image img {
 		width: 560px;
 	}
 }

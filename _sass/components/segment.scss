@@ -1,4 +1,4 @@
-.section {
+.segment {
 	position: relative;
 }
 
@@ -16,11 +16,11 @@
 	filter: drop-shadow(rgba(0, 0, 0, 0.12) 0 -3px 2px);
 }
 
-.section-image {
+.segment-image {
 	width: min-content;
 }
 
-.section-image > img {
+.segment-image > img {
 	border-radius: 20px;
 	filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 2px 2px);
 }
@@ -31,38 +31,38 @@ figcaption {
 	font-size: 0.9em;
 }
 
-.section:nth-child(3n) > .divider {
+.segment:nth-child(3n) > .divider {
 	background-position-x: 33.333%;
 }
 
-.section:nth-child(3n + 1) > .divider {
+.segment:nth-child(3n + 1) > .divider {
 	background-position-x: 66.666%;
 }
 
-.section:nth-child(2n) {
+.segment:nth-child(2n) {
 	background-color: white;
 }
 
-.section:nth-child(2n) > .divider {
+.segment:nth-child(2n) > .divider {
 	background-image: url('/assets/img/divider-white.png');
 }
 
-.section:nth-child(2n + 1) {
+.segment:nth-child(2n + 1) {
 	background-color: #e0e0e0;
 }
 
-.section:nth-child(2n + 1) > .divider {
+.segment:nth-child(2n + 1) > .divider {
 	background-image: url('/assets/img/divider-grey.png');
 	filter: drop-shadow(rgba(0, 0, 0, 0.05) 0 -3px 2px);
 }
 
-.section h1,
-.section h2,
-.section h3,
-.section h4,
-.section h5,
-.section h6 {
-	color: var(--col-section-heading);
+.segment h1,
+.segment h2,
+.segment h3,
+.segment h4,
+.segment h5,
+.segment h6 {
+	color: var(--col-segment-heading);
 }
 
 .section {
