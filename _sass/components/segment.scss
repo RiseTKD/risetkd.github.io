@@ -25,12 +25,6 @@
 	filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 2px 2px);
 }
 
-figcaption {
-	text-align: center;
-	font-style: italic;
-	font-size: 0.9em;
-}
-
 .segment:nth-child(3n) > .divider {
 	background-position-x: 33.333%;
 }
