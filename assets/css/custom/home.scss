@@ -12,11 +12,12 @@
 	filter: blur(5px) brightness(80%);
 }
 
-#segment-welcome h1 {
+#segment-welcome-wrapper {
 	filter: drop-shadow(rgba(0, 0, 0, 0.12) 4px 4px 2px);
 }
 
 #segment-welcome-text {
+	font-family: "Raleway", sans-serif;
 	display: block;
 	text-align: left;
 	text-transform: lowercase;
@@ -24,7 +25,6 @@
 	font-weight: 600;
 	color: var(--col-accent-dark);
 	white-space: nowrap;
-	font-size: 0.9em;
 }
 
 #segment-welcome-title {
@@ -43,44 +43,86 @@
 }
 
 @media (max-width:481px) {
-	#segment-welcome h1 {
-		font-size: 2em;
+	#segment-welcome-wrapper {
 		padding: 50px 20px;
+	}
+
+	#segment-welcome-text {
+		font-size: 1.8em;
+	}
+
+	#segment-welcome-title {
+		font-size: 2em;
 	}
 }
 
 @media (min-width:481px) {
-	#segment-welcome h1 {
-		font-size: 2em;
+	#segment-welcome-wrapper {
 		padding: 50px 20px;
+	}
+
+	#segment-welcome-text {
+		font-size: 1.8em;
+	}
+
+	#segment-welcome-title {
+		font-size: 2em;
 	}
 }
 
 @media (min-width:641px) {
-	#segment-welcome h1 {
-		font-size: 2em;
+	#segment-welcome-wrapper {
 		padding: 50px 20px;
+	}
+
+	#segment-welcome-text {
+		font-size: 1.8em;
+	}
+
+	#segment-welcome-title {
+		font-size: 2em;
 	}
 }
 
 @media (min-width:961px) {
-	#segment-welcome h1 {
-		font-size: 2em;
+	#segment-welcome-wrapper {
 		padding: 50px 20px;
+	}
+
+	#segment-welcome-text {
+		font-size: 1.8em;
+	}
+
+	#segment-welcome-title {
+		font-size: 2em;
 	}
 }
 
 @media (min-width:1025px) {
-	#segment-welcome h1 {
-		font-size: 2em;
+	#segment-welcome-wrapper {
 		padding: 50px 20px;
+	}
+
+	#segment-welcome-text {
+		font-size: 1.8em;
+	}
+
+	#segment-welcome-title {
+		font-size: 2em;
 	}
 }
 
 @media (min-width:1281px) { /* HD-ready */
-	#segment-welcome h1 {
-		font-size: 3em;
+	#segment-welcome-wrapper {
 		padding: 100px 150px;
+	}
+
+	#segment-welcome-text {
+		font-size: 3.6em;
+	}
+
+	#segment-welcome-title {
+		font-size: 4em;
 	}
 
 	.segment-image img {
@@ -89,9 +131,16 @@
 }
 
 @media (min-width:1921px) { /* FHD */
-	#segment-welcome h1 {
-		font-size: 4em;
+	#segment-welcome-wrapper {
 		padding: 150px 200px;
+	}
+
+	#segment-welcome-text {
+		font-size: 3.6em;
+	}
+
+	#segment-welcome-title {
+		font-size: 4em;
 	}
 
 	.segment-image img {
