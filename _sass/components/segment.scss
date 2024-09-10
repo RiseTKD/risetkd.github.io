@@ -16,11 +16,11 @@
 	filter: drop-shadow(rgba(0, 0, 0, 0.12) 0 -3px 2px);
 }
 
-.segment-image {
+.segment-content figure {
 	width: min-content;
 }
 
-.segment-image > img {
+.segment-content figure img {
 	border-radius: 20px;
 	filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 2px 2px);
 }

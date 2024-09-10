@@ -9,7 +9,7 @@
 	padding-top: 80px;
 }
 
-.content {
+.content-wrapper {
 	width: 1280px;
 	max-width: 60vw;
 	margin: 0 auto;
@@ -38,7 +38,7 @@ body {
 	margin: 5px;
 }
 
-#banner-title > span {
+#banner-title span {
 	margin: 0 0 0 20px;
 	font-size: 36px;
 }
@@ -77,11 +77,31 @@ body {
 
 .segment-content {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: min-content auto min-content;
 	align-items: center;
 	padding: 10px 0 40px 0;
 }
 
-.segment-image > img {
+.segment-content figure img {
 	width: 480px;
+}
+
+.segment-content section {
+	grid-column: span 2;
+}
+
+.segment-content figure {
+	grid-column: span 1;
+}
+
+.section-fullwidth {
+	grid-column: 1 / -1 !important;
+}
+
+.section-doubleheight {
+	grid-row: span 2;
+}
+
+.section-tripleheight {
+	grid-row: span 3;
 }

@@ -4,14 +4,6 @@
 	display: block;
 }
 
-#segment-tkd article {
-	grid-column: 1 / -1;
-}
-
-#segment-impact {
-	background-color: #a1b8ce;
-}
-
 #segment-impact > .divider {
 	background-image: url('/assets/img/divider-impact.png');
 }
@@ -29,6 +21,7 @@
 	--col-button-hover: #466B8F;
 	--col-button-bg-normal: #04284C;
 	--col-button-bg-hover: #466B8F;
+	background-color: var(--col-segment-bg);
 }
 
 #segment-impact .infocard-icon {
