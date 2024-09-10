@@ -67,6 +67,11 @@ figcaption {
 	font-size: 0.9em;
 }
 
+.segment-heading {
+	overflow-x: clip;
+	overflow-y: visible;
+}
+
 #segment-heading-body {
 	text-align: center;
 }
