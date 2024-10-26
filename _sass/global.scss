@@ -8,18 +8,21 @@
 	--col-accent-dark: #FF6A00;
 	--col-accent-mid: #FF8B39;
 	--col-accent-light: #FFA464;
-	--col-button-normal: var(--col-accent-dark);
-	--col-button-hover: var(--col-accent-light);
-	--col-button-text: white;
-	--col-banner-bg: white;
-	--col-segment-heading: var(--col-accent-dark);
-	--col-segment-text: var(--col-text);
-	--col-segment-bg: var(--col-bg-plain);
+	--len-spacing-tiny: 0.25em;
+	--len-spacing-small: 0.5em;
+	--len-spacing-medium: 0.75em;
+	--len-spacing-large: 1.0em;
+	--len-spacing-xlarge: 2.0em;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
 	background: var(--col-bg-dark);
 	margin: 0;
+	font-size: min(1em, 8vw);
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 450;
 }
@@ -28,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--col-accent-dark);
 	font-family: "Raleway", sans-serif;
 	margin: 0;
-	padding-left: 15px;
+	padding-left: var(--len-spacing-small);
 }
 
 h1 {
@@ -40,7 +43,19 @@ h2 {
 }
 
 h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+h5 {
 	font-size: 1.2em;
+}
+
+h6 {
+	font-size: 1em;
 }
 
 p {
@@ -50,7 +65,9 @@ p {
 
 sup {
 	vertical-align: top;
-	font-size: 0.6em; 
+	font-size: 0.6em;
+	position: relative;
+	top: -0.5em;
 }
 
 .icon {
@@ -59,24 +76,4 @@ sup {
 
 .address p:not(:first-child) {
 	font-size: 0.9em;
-}
-
-figcaption {
-	text-align: center;
-	font-style: italic;
-	font-size: 0.9em;
-}
-
-.segment-heading {
-	overflow-x: clip;
-	overflow-y: visible;
-}
-
-#segment-heading-body {
-	text-align: center;
-}
-
-#segment-heading-body h1 {
-	margin: 15px;
-	padding: 0;
 }

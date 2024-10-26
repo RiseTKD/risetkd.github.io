@@ -1,8 +1,11 @@
 ---
 ---
+@import 'global.scss';
+@import 'platforms.scss';
 @import 'components/banner.scss';
+@import 'components/content.scss';
 @import 'components/footer.scss';
 @import 'components/segment.scss';
 @import 'components/button.scss';
 @import 'components/infocard.scss';
-@import 'global.scss';
+@import 'components/figure.scss';

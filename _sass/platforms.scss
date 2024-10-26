@@ -1,0 +1,73 @@
+@import 'definitions.scss';
+
+@media print { /* Print mode */
+	.only-mobile {
+		display: none !important;
+	}
+
+	.only-tablet {
+		display: none !important;
+	}
+
+	.only-desktop {
+		display: none !important;
+	}
+
+	.no-print {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: $len-boundary-mobile) { /* Mobile mode */
+	.only-print {
+		display: none !important;
+	}
+
+	.only-tablet {
+		display: none !important;
+	}
+
+	.only-desktop {
+		display: none !important;
+	}
+
+	.no-mobile {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: $len-boundary-mobile) { /* Tablet mode */
+	.only-print {
+		display: none !important;
+	}
+
+	.only-mobile {
+		display: none !important;
+	}
+
+	.only-desktop {
+		display: none !important;
+	}
+
+	.no-tablet {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: $len-boundary-tablet) { /* Desktop mode */
+	.only-print {
+		display: none !important;
+	}
+
+	.only-mobile {
+		display: none !important;
+	}
+
+	.only-tablet {
+		display: none !important;
+	}
+
+	.no-desktop {
+		display: none !important;
+	}
+}

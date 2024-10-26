@@ -1,43 +1,53 @@
-<header id="banner">
-	<div id="banner-content" class="content-wrapper">
-		<div id="banner-container">
-			<div id="banner-logo">
-				{% include logo.html %}
-				<!--<img src="/assets/img/logo-icon.svg" title="Rise Taekwon-Do logo" alt="Rise Taekwon-Do's Logo.">-->
-			</div>
-			<div id="banner-title">
-				<a title="Rise Taekwon-Do">
-					<span>Rise TKD</span>
-				</a>
-			</div>
-			<nav id="banner-menu" class="hide">
-				<div id="banner-menu-open" onmousedown="toggleMenu()">
-					<i id="banner-menu-icon-open" class="icon ri-menu-line"></i>
-					<i id="banner-menu-icon-close" class="icon ri-close-large-line"></i>
+<header id="header">
+	<div id="header-overlay"></div>
+	<div id="banner">
+		<div id="banner-content" class="content-wrapper">
+			<div id="banner-container">
+				<div id="banner-logo">
+					{% include logo.html %}
+					<!--<img src="/assets/img/logo-icon.svg" title="Rise Taekwon-Do logo" alt="Rise Taekwon-Do's Logo.">-->
 				</div>
-				<ul id="banner-menu-list"><!--
-				--><li><a title="Home" href="/"><div class="banner-menu-item {% if page.sitecat == "home" %}selected{% endif %}">
-					<div class="banner-menu-icon"><i class="icon ri-home-2-line"></i></div>
-					<div class="banner-menu-text">Home</div>
-				</div></a></li><!--
-				--><li><a title="About Us" href="/about-us"><div class="banner-menu-item {% if page.sitecat == "about-us" %}selected{% endif %}">
-					<div class="banner-menu-icon"><i class="icon ri-information-line"></i></div>
-					<div class="banner-menu-text">About Us</div>
-				</div></a></li><!--
-				--><li><a title="Getting Started" href="/getting-started"><div class="banner-menu-item {% if page.sitecat == "getting-started" %}selected{% endif %}">
-					<div class="banner-menu-icon"><i class="icon ri-sparkling-2-line"></i></div>
-					<div class="banner-menu-text">Getting Started</div>
-				</div></a></li><!--
-				--><li><a title="Classes" href="/classes"><div class="banner-menu-item {% if page.sitecat == "classes" %}selected{% endif %}">
-					<div class="banner-menu-icon"><i class="icon ri-calendar-line"></i></i></div>
-					<div class="banner-menu-text">Classes</div>
-				</div></a></li><!--
-				--><li><a title="Contact Us" href="/contact-us"><div class="banner-menu-item {% if page.sitecat == "contact-us" %}selected{% endif %}">
-					<div class="banner-menu-icon"><i class="icon ri-phone-line"></i></div>
-					<div class="banner-menu-text">Contact Us</div>
-				</div></a></li><!--
-			--></ul>
-			</nav>
+				<div id="banner-title">
+					<a title="Rise Taekwon-Do">
+						<span>Rise TKD</span>
+					</a>
+				</div>
+				<nav id="banner-menu">
+					<button id="banner-menu-toggle">
+						<div id="banner-menu-toggle-icon">
+							<i id="banner-menu-toggle-icon-open" class="icon ri-menu-line"></i>
+							<i id="banner-menu-toggle-icon-close" class="icon ri-close-large-line"></i>
+						</div>
+					</button>
+					<div id="banner-menu-container">
+						<div class="banner-spacer"></div>
+						<div id="banner-menu-content">
+							<ul id="banner-menu-list"><!--
+							--><li><a title="Home" href="/"><div class="banner-menu-item {% if page.sitecat == "home" %}selected{% endif %}">
+								<div class="banner-menu-icon"><i class="icon ri-home-2-line"></i></div>
+								<div class="banner-menu-text">Home</div>
+							</div></a></li><!--
+							--><li><a title="About Us" href="/about-us"><div class="banner-menu-item {% if page.sitecat == "about-us" %}selected{% endif %}">
+								<div class="banner-menu-icon"><i class="icon ri-information-line"></i></div>
+								<div class="banner-menu-text">About Us</div>
+							</div></a></li><!--
+							--><li><a title="Getting Started" href="/getting-started"><div class="banner-menu-item {% if page.sitecat == "getting-started" %}selected{% endif %}">
+								<div class="banner-menu-icon"><i class="icon ri-sparkling-2-line"></i></div>
+								<div class="banner-menu-text">Getting Started</div>
+							</div></a></li><!--
+							--><li><a title="Classes" href="/classes"><div class="banner-menu-item {% if page.sitecat == "classes" %}selected{% endif %}">
+								<div class="banner-menu-icon"><i class="icon ri-calendar-line"></i></i></div>
+								<div class="banner-menu-text">Classes</div>
+							</div></a></li><!--
+							--><li><a title="Contact Us" href="/contact-us"><div class="banner-menu-item {% if page.sitecat == "contact-us" %}selected{% endif %}">
+								<div class="banner-menu-icon"><i class="icon ri-phone-line"></i></div>
+								<div class="banner-menu-text">Contact Us</div>
+							</div></a></li><!--
+						--></ul>
+					</div>
+					</div>
+				</nav>
+			</div>
 		</div>
 	</div>
 </header>

@@ -13,7 +13,7 @@ footer {
 }
 
 #footer-content {
-	padding: 5px;
+	padding-top: var(--len-spacing-small);
 }
 
 footer > .divider {
@@ -22,7 +22,7 @@ footer > .divider {
 
 #footer-socials {
 	text-align: center;
-	padding: 0 40px;
+	padding: 0 var(--len-spacing-xlarge);
 }
 
 #footer-copyright {

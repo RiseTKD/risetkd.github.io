@@ -24,4 +24,4 @@ function updateFooterHeight() {
 document.addEventListener("DOMContentLoaded", updateFooterHeight);
 document.addEventListener("resize", updateFooterHeight);
 
-window.onresize = updateFooterHeight;
+//window.onresize = updateFooterHeight;

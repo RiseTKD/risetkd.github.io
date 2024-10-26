@@ -1,24 +1,36 @@
+:root {
+	--col-button-normal: var(--col-accent-dark);
+	--col-button-hover: var(--col-accent-light);
+	--col-button-text: white;
+}
+
 .button {
-	margin: 0 10px 10px 10px;
+	margin: var(--len-spacing-medium);
 	transition: 0.5s;
 	display: inline-block;
 	background-color: var(--col-button-bg-normal, var(--col-button-normal));
 	border: 1px solid var(--col-button-border-normal, var(--col-button-normal));
-	border-radius: 50px;
+	border-radius: var(--len-spacing-xlarge);
 	color: var(--col-button-text);
 	font-weight: bold;
 	text-decoration: none;
 	width: fit-content;
-	margin-left: 10px;
-	padding: 9px 19px;
+	padding: var(--len-spacing-small) var(--len-spacing-large);
 }
 
-.button:hover {
-	transition: 0.5s;
-	color: var(--col-button-text-hover, var(--col-button-text));
-	background-color: var(--col-button-bg-hover, var(--col-button-hover));
-	border: 1px solid var(--col-button-border-hover, var(--col-button-hover));
-	text-decoration: underline;
+@media (pointer: fine) {
+	.button {
+		font-size: 1.0em;
+		padding: var(--len-spacing-small) var(--len-spacing-large);
+	}
+
+}
+
+@media not (pointer: fine) {
+	.button {
+		font-size: 1.1em;
+		padding: var(--len-spacing-medium) var(--len-spacing-xlarge);
+	}
 }
 
 .button .icon {
@@ -26,7 +38,23 @@
 	color: var(--col-button-text);
 }
 
-.button:hover .icon {
-	transition: 0.5s;
-	color: var(--col-button-text-hover, var(--col-button-text));
+@media (hover: hover) {
+	.button:hover {
+		transition: 0.5s;
+		color: var(--col-button-text-hover, var(--col-button-text));
+		background-color: var(--col-button-bg-hover, var(--col-button-hover));
+		border: 1px solid var(--col-button-border-hover, var(--col-button-hover));
+		text-decoration: underline;
+	}
+
+	.button:hover .icon {
+		transition: 0.5s;
+		color: var(--col-button-text-hover, var(--col-button-text));
+	}
+}
+
+@media only print {
+	.button {
+		display: none;
+	}
 }

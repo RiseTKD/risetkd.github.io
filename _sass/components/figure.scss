@@ -1,0 +1,60 @@
+@import 'definitions.scss';
+
+@media (max-width: $len-boundary-mobile) { /* Mobile mode */
+    :root {
+        --len-image-width: 100%;
+        --len-image-width-min: 0;
+        --len-image-width-max: 25rem;
+    }
+
+    figure {
+        margin: 0 auto;
+        padding: var(--len-spacing-medium);
+    }
+}
+
+@media (min-width: $len-boundary-mobile) { /* Tablet mode */
+    :root {
+        --len-image-width: calc(0.35 * var(--len-content-width));
+        --len-image-width-min: calc(0.35 * var(--len-content-width-min));
+        --len-image-width-max: calc(0.35 * var(--len-content-width-max));
+    }
+
+    figure {
+        margin: var(--len-spacing-large) var(--len-spacing-xlarge);
+    }
+}
+
+@media (min-width: $len-boundary-tablet) {  /* Desktop mode */
+    :root {
+        --len-image-width: calc(0.4 * var(--len-content-width));
+        --len-image-width-min: calc(0.4 * var(--len-content-width-min));
+        --len-image-width-max: calc(0.4 * var(--len-content-width-max));
+    }
+
+    figure {
+        margin: var(--len-spacing-large) var(--len-spacing-xlarge);
+    }
+}
+
+figure {
+    width: var(--len-image-width);
+    min-width: var(--len-image-width-min);
+    max-width: var(--len-image-width-max);
+    box-sizing: border-box;
+}
+
+figure img,
+figure svg,
+figure iframe {
+    width: 100%;
+	border-radius: var(--len-spacing-large);
+	filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 2px 2px);
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+	font-size: 0.9em;
+    margin-top: var(--len-spacing-medium);
+}
