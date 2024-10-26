@@ -18,7 +18,7 @@
 	padding: var(--len-spacing-small) var(--len-spacing-large);
 }
 
-@media (pointer: fine) {
+@media (pointer: fine), (pointer: none) {
 	.button {
 		font-size: 1.0em;
 		padding: var(--len-spacing-small) var(--len-spacing-large);
@@ -26,7 +26,7 @@
 
 }
 
-@media not (pointer: fine) {
+@media (pointer: coarse) {
 	.button {
 		font-size: 1.1em;
 		padding: var(--len-spacing-medium) var(--len-spacing-xlarge);
