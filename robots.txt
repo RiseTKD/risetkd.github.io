@@ -4,5 +4,6 @@ Allow: /about-us
 Allow: /getting-started
 Allow: /classes
 Allow: /contact-us
+Allow: /taster
 
 Sitemap: https://www.risetkd.co.uk/sitemap.xml
